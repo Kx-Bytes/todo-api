@@ -55,6 +55,19 @@
     <artifactId>spring-boot-starter-test</artifactId>
     <scope>test</scope>
   </dependency>
+  
+  <!-- Micrometer Core -->
+	<dependency>
+	    <groupId>io.micrometer</groupId>
+	    <artifactId>micrometer-core</artifactId>
+	</dependency>
+	
+	<!-- Micrometer Registry Graphite -->
+	<dependency>
+	    <groupId>io.micrometer</groupId>
+	    <artifactId>micrometer-registry-graphite</artifactId>
+	</dependency>
+	
 </dependencies>
 
   <build>
